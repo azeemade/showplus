@@ -7,7 +7,6 @@ import { Search } from './components/Search';
 function App() {
   const [loading, setLoading] = useState(false);
   const [movies, setMovies] = useState([]);
-  const [errormsg, setErrormsg] = useState("")
   const [search, setSearch] = useState("");
 
   const handleChange = (e) => {
