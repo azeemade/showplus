@@ -22,7 +22,6 @@ function App() {
         setMovies(jsonResponse.Search);
         setLoading(false);
       } else {
-        setErrormsg(jsonResponse.Error);
         setLoading(false);
       }
     });
